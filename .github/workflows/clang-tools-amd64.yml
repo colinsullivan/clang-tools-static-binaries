@@ -2,7 +2,7 @@ name: clang-tools-static-amd64
 
 on:
   push:
-    branches: [ master, draft-chunks ]
+    branches: [ master, draft-chunks-with-macos-arm ]
 
 jobs:
   build:
